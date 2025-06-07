@@ -31,7 +31,7 @@ public class InvoiceCreateController {
     public String deleteInvoiceById(@PathVariable("id")
                                                Long invoiceId)
     {
-        return "Invoice with id : " + invoiceId + "deleted successfully";
+        return "Invoice with id : " + invoiceId + "Deleted Successfully..";
     }
 }
 
