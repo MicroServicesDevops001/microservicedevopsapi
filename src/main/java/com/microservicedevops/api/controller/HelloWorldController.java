@@ -12,7 +12,7 @@ public class HelloWorldController {
     @GetMapping("/hello")
     public String hello ()
     {
-        return "Welcome to Micro Service Devops integration";
+        return "Welcome to Micro Service Devops integration-Changes for Branch A";
     };
 
     @GetMapping("/hello/{id}")
